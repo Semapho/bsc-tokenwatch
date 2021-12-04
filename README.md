@@ -1,5 +1,6 @@
 # bsc-tokenwatch
-Python script that scrapes new Bsc tokens from Poocoin and checks if they are rugpulls and honeypots and stores the data in a excel file
+Python script that scrapes new Bsc tokens from Poocoin and checks if they are rugpulls and honeypots 
+
 Installation
 ---
 Preferably, you can download sqlmap by cloning the Git repository:
@@ -13,7 +14,7 @@ Download all the requirements from the requirements.txt
 How it does the stuff:
 ---
 This script uses selenium, python web driver to automate browser to go to poocoin.app/ape and scape the data using BeautifulSoup. Since all the sites used int his script, i.e, poocoin and bscscan, blocks pyhton requests module to get the data and source code, Browser automation is the only way left for using the script.
-Script scraps the new tokens on poocoin.app/ape and check for rugpulls, like checking if the top holder of the coin is a Burn Address or a Liquidity Pool and then checking if the liquity pool has most stuff burned or locked in a contract
+Script scrapes the new tokens on poocoin.app/ape and check for rugpulls, like checking if the top holder of the coin is a Burn Address or a Liquidity Pool and then checking if the liquity pool has most stuff burned or locked in a contract
  ```
  Disclaimer: All the data classified as non-rugpulls and honeypots are detected by this bot, which maybe true or false.
  The developer is not responsible and liable for any wrong data detected by the bot.
