@@ -15,7 +15,8 @@ How it does the stuff:
 This script uses selenium, python web driver to automate browser to go to poocoin.app/ape and scape the data using BeautifulSoup. Since all the sites used int his script, i.e, poocoin and bscscan, blocks pyhton requests module to get the data and source code, Browser automation is the only way left for using the script.
 Script scraps the new tokens on poocoin.app/ape and check for rugpulls, like checking if the top holder of the coin is a Burn Address or a Liquidity Pool and then checking if the liquity pool has most stuff burned or locked in a contract
  ```
- Disclaimer: All the data classified as non-rugpulls and honeypots are detected by this bot, which maybe true or false. The developer is not responsible and liable for any wrong data detected by the bot. Please do your own research before buyng anything. 
+ Disclaimer: All the data classified as non-rugpulls and honeypots are detected by this bot, which maybe true or false.
+ The developer is not responsible and liable for any wrong data detected by the bot. Please do your own research before buyng anything. 
 ```
 What you need to do to get started
 ---
