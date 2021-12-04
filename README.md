@@ -8,7 +8,7 @@ Preferably, you can download sqlmap by cloning the Git repository:
   ```
 Download all the requirements from the requirements.txt
   ```python
-  pip install -m requirements.txt
+  pip install -r requirements.txt
   ```
 How it does the stuff:
 ---
