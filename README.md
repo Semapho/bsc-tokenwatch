@@ -18,7 +18,7 @@ Script scraps the new tokens on poocoin.app/ape and check for rugpulls, like che
 
 What you need to do to get started
 ---
-1. Download any selenium browser webdriver, but chromedriver is preferred. Download from (here)[https://chromedriver.chromium.org/downloads]
+1. Download any selenium browser webdriver, but chromedriver is preferred. Download from [here](https://chromedriver.chromium.org/downloads)
 2. Add the path to the chromedriver in the script main.py at the line number 14. 
 3. You can use options like using chrome in headless mode by uncommenting the line 19.
 4. The script adds excel files in the excel folder by date sort. If using many times in a day, the script adds different sheets in a file by the name of the time at which it is started
