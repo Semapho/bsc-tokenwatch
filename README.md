@@ -3,10 +3,13 @@ Python script that scrapes new Bsc tokens from Poocoin and checks if they are ru
 Installation
 ---
 Preferably, you can download sqlmap by cloning the Git repository:
+  ```bash
   git clone https://github.com/theinit01/bsc-tokenwatch
+  ```
 Download all the requirements from the requirements.txt
+  ```python
   pip install -m requirements.txt
-
+  ```
 How it does the stuff:
 ---
 This script uses selenium, python web driver to automate browser to go to poocoin.app/ape and scape the data using BeautifulSoup. Since all the sites used int his script, i.e, poocoin and bscscan, blocks pyhton requests module to get the data and source code, Browser automation is the only way left for using the script.
